@@ -71,7 +71,7 @@ let answerDisabled = false;
 totalQuestionsSpan.textContent = quizQuestions.length;
 maxScoreSpan.textContent = quizQuestions.length;
 
-startScreen.addEventListener('click', startQuiz);
+startButton.addEventListener('click', startQuiz);
 restartButton.addEventListener('click', restartQuiz);
 
 function startQuiz() {
